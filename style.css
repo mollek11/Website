@@ -16,6 +16,11 @@ body {
   margin: 50px;
 }
 
+.links {
+  background-color: red;
+  color: white;
+}
+
 .title {
   font-size: 48px;
   text-decoration: underline;
