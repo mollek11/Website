@@ -1,8 +1,9 @@
 /* Website styles */
 
 * {
-  /* font-size: 100%; */
+  font-size: 100%;
 }
+
 body {
   color: rgb(178, 34, 34);
   font-size: 14px;
@@ -13,25 +14,50 @@ body {
 h1 {
     color: blue;
     font-family: Helvetica, Arial;
+    font-size: 36px;
 }
 
 h2 {
   color: red;
+  font-size: 24px;
+}
+
+h1, h2 {
+  font-weight: normal;
+  font-style: italic;
 }
 
 p {
-  font-size: 18px;
+  /* font-size: 18px; */
   color: black;
+  line-height: 2;
+  text-align: justify;
 }
 
-header {
+header h1 {
   color: rgb(170,170,170);
+  text-align: center;
 }
 
-footer {
+footer p {
   color: #444444;
+  font-size: 8px;
 }
 
 section {
   color: green;
+}
+
+a:link,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: grey;
 }
